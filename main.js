@@ -28,11 +28,8 @@ if (ranNumbP > ranNumbC) {
     ranNumbC = Math.floor(Math.random() * 1000);
 }
     
-    if (ranNumbP > ranNumbC) {
-        alert('Your forces were victorious in this battle. The Goblins are regrouping. Ready for the next battle?');
-    } else {
-        alert('The Goblins defeated your forces in battle. Time to regroup and plan another attack. Ready for the next battle?');
-    }
+    
+    alert('After an epic battle both sides fall back to regroup their forces. It is time to prepare for the next fight. Are you ready?');
     continue;
   
     scorePlayer === 10 || scoreComp === 10; 
